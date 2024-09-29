@@ -7,8 +7,8 @@ global.audio= "" ;
 global.video= "" ;
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL || ""                       // put your app url here,
-global.email ="jastinmtewa@yahoo.com"
-global.location="Morogoro,Tanzania."
+global.email ="bwabymoudy@gmail.com"
+global.location="Bamako,Mali."
 global.mongodb= process.env.MONGODB_URI || "mongodb+srv://wasitech10:WASImd##12@cluster0.eclhxiz.mongodb.net/?retryWrites=true&w=majority"
 
 global.allowJids= process.env.ALLOW_JID || "null" 
@@ -17,7 +17,7 @@ global.blockJids= process.env.BLOCK_JID || "120363023983262391@g.us"
 
 global.DATABASE_URI = process.env.DATABASE_URL || ""
 
-global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Pakistan";
+global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/Mali";
 global.github=process.env.GITHUB|| "https://github.com/wasixd/WASI-MD";
 global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j";
 global.website=process.env.GURL || "https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j" ; 
@@ -27,7 +27,7 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://gi
 
 global.devs = "923192173398" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923192173398";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "22395064497";
 
 
 
